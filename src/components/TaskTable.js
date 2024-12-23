@@ -6,6 +6,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import Modal from './layout/ModalLayout';
 import ActionModal from '../pages/ActionModal';
 import SkeletonLoader from './SkeletonLoader';
+import editLogo from "../images/edit.svg";
+import deleteLogo from "../images/delete.svg";
 
 const TaskTable = () => {
   const { tasks, setTasks, loading } = useContext(TaskContext);
@@ -189,13 +191,13 @@ const TaskTable = () => {
                       <td>
                         <div className="flex">
                           <img
-                            src="/images/edit.svg"
+                            src={editLogo}
                             alt="edit-icon"
                             className="h-4 w-4 mr-4 cursor-pointer"
                             onClick={(e) => { openModal('edit', task); e.stopPropagation() }}
                           />
                           <img
-                            src="/images/delete.svg"
+                            src={deleteLogo}
                             alt="delete-icon"
                             className="h-4 w-4 cursor-pointer"
                             onClick={(e) => { openModal('delete', task); e.stopPropagation() }}
