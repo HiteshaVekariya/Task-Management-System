@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "Task 1",
+      "description": "This is the first task",
+      "dueDate": "2024-12-31",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "title": "Task 2",
+      "description": "This is the second task",
+      "dueDate": "2024-12-25",
+      "status": "In Progress"
+    },
+    {
+      "id": 3,
+      "title": "Task 3",
+      "description": "Review project documentation",
+      "dueDate": "2024-12-20",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "title": "Task 4",
+      "description": "Prepare presentation for the client meeting",
+      "dueDate": "2024-12-18",
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "title": "Task 5",
+      "description": "Fix bugs in the user authentication module",
+      "dueDate": "2024-12-22",
+      "status": "In Progress"
+    },
+    {
+      "id": 6,
+      "title": "Task 6",
+      "description": "Update the project roadmap",
+      "dueDate": "2024-12-30",
+      "status": "Completed"
+    },
+    {
+      "id": 7,
+      "title": "Task 7",
+      "description": "Write unit tests for new components",
+      "dueDate": "2024-12-28",
+      "status": "Pending"
+    },
+    {
+      "id": 8,
+      "title": "Task 8",
+      "description": "Plan the upcoming sprint",
+      "dueDate": "2024-12-23",
+      "status": "In Progress"
+    },
+    {
+      "id": 9,
+      "title": "Task 9",
+      "description": "Organize team-building activity",
+      "dueDate": "2024-12-26",
+      "status": "Completed"
+    },
+    {
+      "id": 10,
+      "title": "Task 10",
+      "description": "Optimize database queries",
+      "dueDate": "2024-12-27",
+      "status": "Pending"
+    }
+  ]
+  

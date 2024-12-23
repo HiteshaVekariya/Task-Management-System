@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 18px;
+}
+
+th, td {
+  padding: 12px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
